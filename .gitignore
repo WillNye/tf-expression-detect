@@ -1,6 +1,7 @@
 .idea
 .idea/
 .idea/*
+data/*
 *.pyc
 *.csv
 
