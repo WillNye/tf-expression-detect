@@ -85,10 +85,10 @@ def softmax(a):
 
 
 def cost(T, Y):
-    return -np.log(Y[np.arrange(len(T)), T]).sum()
+    return -np.log(Y[np.arange(len(T)), T]).sum()
 
 
-def y2indicator(y):
+def y2_indicator(y):
     N = len(y)
     K = len(set(y))
     T = np.zeros((N, K))

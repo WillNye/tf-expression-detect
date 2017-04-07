@@ -8,7 +8,7 @@ label_map = ['Anger', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 
 
 def main():
-    X, Y = get_data(balance_ones=False)
+    X, Y = get_data()
 
     while True:
         for label in range(7):
